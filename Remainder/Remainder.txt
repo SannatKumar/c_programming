@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	int integer, remainder;
+	printf("Enter an integer: \n");
+	scanf("%d", &integer);
+	remainder = integer%2;
+	printf("The number is %d", remainder);
+	return 0;
+}
